@@ -1,0 +1,88 @@
+@media (max-width: 767px) {
+  .muctieuthongtin {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .nguyenvanA h2 {
+    font-size: 28px !important;
+    top: 26%;
+  }
+  .nguyenvanA P {
+    font-size: 14px !important;
+    top: 35%;
+  }
+  .itemnav,
+  .navduan,
+  .navlylich {
+    border: none;
+    border-right: none;
+  }
+  .name {
+    position: absolute;
+  }
+  .topnavbar {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    text-align: left;
+    text-decoration: none;
+    font-size: 17px;
+    /* padding: 21px; */
+
+    padding: 0px 10px;
+  }
+  .chungchigiaithuong {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .WEB {
+    border-right: none;
+  }
+  .wordinimg {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+  }
+  .banner {
+    height: 90vh;
+  }
+  .bigduan {
+    margin-left: 20px;
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .DATABASE,
+  .WEB,
+  .DATABASE,
+  .JAVASCRIPT {
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 30px;
+  }
+  .javaimng,
+  .webimng,
+  .databaseimng {
+    width: 100%;
+  }
+  .footerlink {
+    font-size: 30px;
+    width: 100%;
+    height: auto;
+  }
+  .duan-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0px;
+    padding-top: 15px;
+  }
+  .footerlink a {
+    display: none;
+  }
+  .extralink {
+    text-decoration: none;
+    color: black;
+  }
+}

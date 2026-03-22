@@ -1,0 +1,63 @@
+@media (max-width: 1023px) {
+  .wordinimg {
+    width: 100%;
+    height: 34vh;
+    overflow: hidden;
+  }
+  .banner {
+    height: 40vh;
+  }
+  .DATABASE,
+  .WEB,
+  .JAVASCRIPT {
+    padding: 10px;
+    grid-template-columns: auto;
+  }
+  .kinhnghiem-header {
+    padding: 10px;
+  }
+  .duan-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px;
+    padding-top: 15px;
+  }
+  .footerlink {
+    font-size: 30px;
+    width: 100%;
+    height: auto;
+  }
+  .footerlink p {
+    margin-top: 1rem;
+  }
+  .motacv,
+  .nhiemvucv,
+  .congnghecv,
+  .motathucung,
+  .nhiemvuthucung,
+  .congnghethucung,
+  .motatintuc,
+  .nhiemvutintuc,
+  .congnghetintuc {
+    padding: 5px;
+  }
+  .cvcanhan,
+  .webthucung,
+  .webtintuc {
+    padding: 5px;
+    display: flex;
+    gap: 20px;
+  }
+  .nguyenvanA h2 {
+    font-size: 28px !important;
+    top: 13%;
+  }
+  .nguyenvanA P {
+    font-size: 12px !important;
+    top: 17%;
+  }
+  .extralink {
+    text-decoration: none;
+    color: black;
+  }
+}
